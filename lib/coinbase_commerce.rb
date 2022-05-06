@@ -31,6 +31,7 @@ require "coinbase_commerce/api_resources/base/delete"
 require "coinbase_commerce/api_resources/checkout"
 require "coinbase_commerce/api_resources/charge"
 require "coinbase_commerce/api_resources/event"
+require "coinbase_commerce/api_resources/invoice"
 
 # webhooks
 require "coinbase_commerce/webhooks"

@@ -41,6 +41,11 @@ module CoinbaseCommerce
       APIResources::Event
     end
 
+    def invoice
+      APIResources::Invoice.client = self
+      APIResources::Invoice
+    end
+
     def api_url(url = "", api_base = nil)
       (api_base || CoinbaseCommerce::BASE_API_URL) + url
     end
